@@ -166,6 +166,7 @@ def translate_text(text_to_translate, target_language="繁體中文"):
     
     # 選擇模型 (保持不變)
     model = genai.GenerativeModel('gemini-1.5-flash-latest')
+    # model = genai.GenerativeModel('gemini-2.0-flash')
 
     # 狀態提示 (保持不變)
     # st.info("正在使用流式傳輸將英文文字傳送給模型進行翻譯...") # 在迴圈中顯示太頻繁
